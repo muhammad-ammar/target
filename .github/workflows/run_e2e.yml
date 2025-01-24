@@ -1,6 +1,8 @@
-name: Pylint
+name: Run E2E
 
-on: [push]
+on:
+  repository_dispatch:
+    types: [trigger-workflow]
 
 jobs:
   build:
