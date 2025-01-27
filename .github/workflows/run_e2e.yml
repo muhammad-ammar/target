@@ -3,6 +3,7 @@ name: Run E2E
 on:
   schedule:
     - cron: '0 */2 * * *'
+  workflow_dispatch:
   repository_dispatch:
     types: [trigger-workflow]
 
