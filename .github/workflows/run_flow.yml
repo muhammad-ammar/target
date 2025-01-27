@@ -1,4 +1,4 @@
-name: Run E2E
+name: Run Flow
 
 on:
   schedule:
